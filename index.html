@@ -1,0 +1,49 @@
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<html>
+<body>
+<div id="normal">
+<h1>TRADER DOGE</h1>
+<br>
+<h1 class="smallerh1">COMING SOON</h1>
+<br>
+<br>
+<br>
+<img src="traderdogeworker.jpeg"/>
+</div>
+<div id ="bubble">
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+var dogephrases=['much coming soon', 'wow', 'amaze', 'such new site', 'awesome', 'v local produce', 'how coming soon', 'plz come back', 'v new site', 'much 3 buck chuck', 'such cubano wrap', 'WOW', 'such new website soon', 'how new website', 'leik farmrs market', 'v fair trade', 'such organic', 'many vegetable', 'how fair trade', 'much frozen lasagna'];
+var bubbleColors=['ff0000','00ff00','0000ff','ff8000','00ff80','8000ff'];
+
+setInterval(function(){changeBubble()},4000);
+
+function changeBubble() {
+
+var myBubble= document.getElementById('bubble');
+
+var randomindex = Math.floor((Math.random()*dogephrases.length)+0);
+myBubble.innerHTML = dogephrases[randomindex];
+randomindex = Math.floor((Math.random()*bubbleColors.length)+0);
+<!--myBubble.style.color = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);-->
+myBubble.style.color = bubbleColors[randomindex];
+
+myBubble.style.left = Math.random()*800+"px";
+myBubble.style.top = Math.random()*600+"px";
+
+var randomsize = 22 + Math.floor((Math.random()*12)) ;
+myBubble.style.fontSize = randomsize +"px";
+
+}
+
+
+
+</script>

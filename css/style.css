@@ -32,6 +32,7 @@ body {
 
 #product-info p {
 	font-family: 'Comic Sans MS', cursive;
+	font-size: 26px;
 }
 
 h1 {
@@ -68,7 +69,6 @@ div#footer {
 	text-decoration: underline;
 	vertical-align: text-top;
 	font-size: 10px;
-	color: #198ed8;
 	text-align: center;
 	vertical-align: text-top;
 }
@@ -81,9 +81,10 @@ div#footer img {
 div#footer a {
 	color: #000000;
 	text-decoration: none;
+	font-size: 16px;
 }
 
 div#footer a:hover {
-	color: #198ed8;
+	color: #cc0000;
 	height: 22px;
 }

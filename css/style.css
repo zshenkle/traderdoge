@@ -1,0 +1,89 @@
+body {
+	background-image: url('../images/bg01.jpg');
+	background-repeat: no-repeat;
+	background-size: 2000px 1440px;
+}
+
+#normal {
+	width: 80%;
+	z-index: 1;
+	text-align: center;
+	margin: -100px auto 20px auto;
+}
+
+#bubble {
+	position: fixed;
+	display: block;
+	font-family: 'Comic Sans MS', cursive;
+	z-index: 2;
+}
+
+#normal #header {
+	text-align: left;
+}
+
+#product-conatainer {
+	min-height: 300px;
+}
+
+#product-container img {
+	vertical-align: middle;
+}
+
+#product-info p {
+	font-family: 'Comic Sans MS', cursive;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	line-height: 1em;
+	margin-bottom: 25px;
+	display: block;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+.smallerh1 {
+	font-size: 2em;
+	color: gray;
+}
+
+div#footer-outer {
+	margin: 150px 0px 0px 0px;
+	width: 100%;
+	color: #000000;
+	clear: both;
+	min-height: 100px;
+}
+
+div#footer {
+	width: 950px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	vertical-align: text-top;
+	font-size: 10px;
+	color: #198ed8;
+	text-align: center;
+	vertical-align: text-top;
+}
+
+div#footer img {
+	vertical-align: bottom;
+	margin: 0px 2px 0px 0px
+}
+
+div#footer a {
+	color: #000000;
+	text-decoration: none;
+}
+
+div#footer a:hover {
+	color: #198ed8;
+	height: 22px;
+}
